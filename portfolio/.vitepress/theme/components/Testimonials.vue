@@ -4,22 +4,20 @@
       <h2 class="section-title">Client Testimonials</h2>
       <div class="testimonials-grid">
         <div v-for="(testimonial, index) in displayedTestimonials" :key="index" class="testimonial-card">
-          <div class="testimonial-card-inner">
-            <div class="quote-icon">
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M10 11H6.21C6.48 9.84 7.79 9 9 9V7C7.52 7 6.22 7.54 5.29 8.47C4.16 9.6 3.56 11.19 3.5 13C3.44 14.72 4.13 16.39 5.46 17.5C6.69 18.53 8.23 19 9 19C10.1055 19 11.1748 18.5629 11.9624 17.7877C12.75 17.0126 13.1944 15.9542 13.1944 14.85C13.1944 13.7458 12.75 12.6874 11.9624 11.9123C11.1748 11.1371 10.1055 10.7 9 10.7" fill="currentColor" fillOpacity="0.4"/>
-                <path d="M22 11H18.21C18.48 9.84 19.79 9 21 9V7C19.52 7 18.22 7.54 17.29 8.47C16.16 9.6 15.56 11.19 15.5 13C15.44 14.72 16.13 16.39 17.46 17.5C18.69 18.53 20.23 19 21 19C22.1055 19 23.1748 18.5629 23.9624 17.7877C24.75 17.0126 25.1944 15.9542 25.1944 14.85C25.1944 13.7458 24.75 12.6874 23.9624 11.9123C23.1748 11.1371 22.1055 10.7 21 10.7" fill="currentColor" fillOpacity="0.4"/>
-              </svg>
-            </div>
-            <div class="testimonial-content">"{{ testimonial.content }}"</div>
-            <div class="testimonial-author">
-              - {{ testimonial.author }}
-            </div>
-            <a v-if="testimonial.link" :href="testimonial.link" class="testimonial-link" target="_blank" rel="noopener">
-              View on Discord
-              <span class="link-arrow">→</span>
-            </a>
+          <div class="quote-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 11H6.21C6.48 9.84 7.79 9 9 9V7C7.52 7 6.22 7.54 5.29 8.47C4.16 9.6 3.56 11.19 3.5 13C3.44 14.72 4.13 16.39 5.46 17.5C6.69 18.53 8.23 19 9 19C10.1055 19 11.1748 18.5629 11.9624 17.7877C12.75 17.0126 13.1944 15.9542 13.1944 14.85C13.1944 13.7458 12.75 12.6874 11.9624 11.9123C11.1748 11.1371 10.1055 10.7 9 10.7" fill="currentColor" fillOpacity="0.4"/>
+              <path d="M22 11H18.21C18.48 9.84 19.79 9 21 9V7C19.52 7 18.22 7.54 17.29 8.47C16.16 9.6 15.56 11.19 15.5 13C15.44 14.72 16.13 16.39 17.46 17.5C18.69 18.53 20.23 19 21 19C22.1055 19 23.1748 18.5629 23.9624 17.7877C24.75 17.0126 25.1944 15.9542 25.1944 14.85C25.1944 13.7458 24.75 12.6874 23.9624 11.9123C23.1748 11.1371 22.1055 10.7 21 10.7" fill="currentColor" fillOpacity="0.4"/>
+            </svg>
           </div>
+          <div class="testimonial-content">"{{ testimonial.content }}"</div>
+          <div class="testimonial-author">
+            - {{ testimonial.author }}
+          </div>
+          <a v-if="testimonial.link" :href="testimonial.link" class="testimonial-link" target="_blank" rel="noopener">
+            View on Discord
+            <span class="link-arrow">→</span>
+          </a>
         </div>
       </div>
       <div v-if="hasMoreTestimonials" class="testimonials-load-more">

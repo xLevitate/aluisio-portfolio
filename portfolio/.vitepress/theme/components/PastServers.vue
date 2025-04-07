@@ -41,7 +41,7 @@ const servers = [
     image: "/server2.jpg",
     role: "Owner & Manager",
     period: "Sep. 2023 - Oct. 2023",
-    description: "Owned and managed all server operations. Developed server infrastructure and oversaw community growth.",
+    description: "Owned and managed all server operations. Handled plugin configurations and oversaw community growth.",
     link: "#"
   },
   {
@@ -57,7 +57,7 @@ const servers = [
     image: "/server1.jpg",
     role: "Developer",
     period: "Mar. 2023 - Jul. 2023",
-    description: "Developed custom plugins and configurations to enhance gameplay. Optimized server performance and fixed technical issues.",
+    description: "Developed custom configurations, and server setups.",
     link: "#"
   },
   {
@@ -65,7 +65,7 @@ const servers = [
     image: "/server2.jpg",
     role: "Developer",
     period: "May. 2023 - Jun. 2023",
-    description: "Created specialized plugins and configurations. Implemented custom features to improve player experience.",
+    description: "Created plugin configurations, and worked on improving the performance of the server.",
     link: "#"
   }
 ];
