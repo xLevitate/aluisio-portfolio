@@ -4,10 +4,10 @@
       <h2 class="section-title">Past Projects</h2>
       <div class="projects-grid">
         <div v-for="(project, index) in projects" :key="index" class="project-card">
-          <div class="project-image-container">
+          <!--<div class="project-image-container">
             <img :src="project.image" :alt="project.title" class="project-image">
             <div class="project-overlay"></div>
-          </div>
+          </div>-->
           <div class="project-content">
             <h3 class="project-title">{{ project.title }}</h3>
             <p class="project-description">{{ project.description }}</p>

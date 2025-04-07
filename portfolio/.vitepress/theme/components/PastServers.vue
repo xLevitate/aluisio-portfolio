@@ -4,10 +4,10 @@
       <h2 class="section-title">Past Servers</h2>
       <div class="servers-grid">
         <div v-for="(server, index) in servers" :key="index" class="server-card">
-          <div class="server-image-container">
+          <!--<div class="server-image-container">
             <img :src="server.image" :alt="server.name" class="server-image">
             <div class="server-overlay"></div>
-          </div>
+          </div>-->
           <div class="server-content">
             <h3 class="server-name">{{ server.name }}</h3>
             <div class="server-meta">
