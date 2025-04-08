@@ -23,6 +23,17 @@ export default {
           ]
         },
         {
+          text: 'CrestReferrals',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/plugins/crestreferrals/' },
+            { text: 'Installation', link: '/plugins/crestreferrals/installation' },
+            { text: 'Commands', link: '/plugins/crestreferrals/commands' },
+            { text: 'Configuration', link: '/plugins/crestreferrals/configuration' },
+            { text: 'API', link: '/plugins/crestreferrals/api' },
+          ]
+        },
+        {
           text: 'CrestPvPToggle',
           collapsed: false,
           items: [
