@@ -43,6 +43,17 @@ export default {
             { text: 'Configuration', link: '/plugins/crestpvptoggle/configuration' },
             { text: 'API', link: '/plugins/crestpvptoggle/api' },
           ]
+        },
+        {
+          text: 'CrestPayouts',
+          collapsed: false,
+          items: [
+            { text: 'Overview', link: '/plugins/crestpayouts/' },
+            { text: 'Installation', link: '/plugins/crestpayouts/installation' },
+            { text: 'Commands', link: '/plugins/crestpayouts/commands' },
+            { text: 'Configuration', link: '/plugins/crestpayouts/configuration' },
+            { text: 'API', link: '/plugins/crestpayouts/api' },
+          ]
         }
       ]
     },
