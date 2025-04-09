@@ -12,5 +12,5 @@ A lightweight and powerful plugin that allows players to toggle their PvP status
 ### [CrestReferrals](/plugins/crestreferrals/)
 Allow players to refer other players in order to earn rewards, reach milestones in order to reach even more rewards, and compete for the top place in the leaderboards.
 
-### [CrestPayouts](/plugins/crestpayouts)
+### [CrestPayouts](/plugins/crestpayouts/)
 Automatically reward the top players of your server, fully configurable and with support for Discord webhook sending and much more.
